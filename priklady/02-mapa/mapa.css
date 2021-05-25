@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+    background-color: #ddd;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1200px;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+/* ------------------------------ */
+
+/*
+    1. nadpisy a rámeček kolem mapy primární barvou Czechitas
+    2. odstraň kurzívu z textu
+    3. mapa responzivní – ukážeme si ;)
+*/
